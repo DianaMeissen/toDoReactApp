@@ -31,3 +31,14 @@
     transform: rotate(360deg);
   }
 }
+
+#settingsButton {
+  position: absolute;
+  top:60px;
+  left: 66%;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: white;
+}

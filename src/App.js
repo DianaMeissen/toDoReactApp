@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 import ToDoItem from './ToDoItem.js'
-import data from './toDoData.js'
+import data from './ToDoData.js'
 
 import './App.css';
 
@@ -34,6 +34,7 @@ class App extends Component {
         return (
         <div className="todo-list">
             <h1>Some tasks to do</h1>
+            <button id="settingsButton" onClick=""><i class="fa fa-cog"></i></button>
             {todoItems}
         </div>
         )
